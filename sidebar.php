@@ -18,7 +18,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="" class="nav-link">
+            <a href="login.php" class="nav-link">
               <span class="material-symbols-outlined">person</span>
               <p>Log In</p>
             </a>
@@ -30,10 +30,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">
+            <button type="button" class="nav-link" data-toggle="modal" data-target="#uploadMapModal">
               <span class="material-symbols-outlined">cloud_upload</span>
               <p>Upload Peta Pola Ruang</p>
-            </a>
+            </button>
           </li>
           <li class="nav-item">
             <a href="" class="nav-link">
