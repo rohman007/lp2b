@@ -50,9 +50,6 @@
 								<option>5</option>
 							</select>
 						</div>
-						<div class="form-group mb-3">
-							<input type="text" class="form-control form-control-user py-2" id="" placeholder="Luas">
-						</div>
 						<div class="input-group mb-3">
 							<input type="text" class="form-control" placeholder="Luas" aria-label="Luas" aria-describedby="luas">
 							<div class="input-group-prepend">
