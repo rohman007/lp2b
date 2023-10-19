@@ -282,7 +282,9 @@ span.icon-upload {
 }
 .form-modal.modal-dialog {
     width: 420px;
-    max-width:90%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .form-modal .input-group-text pre {
     padding: 0;
