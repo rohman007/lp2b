@@ -1,5 +1,12 @@
 
 <div class="wrapper"></div>
+<?php 
+	include "upload_map.php";
+	include "form_upload.php";
+	include "survey_lp2b.php";
+	include "survey_irigasi.php";
+	include "survey_jalan_tani.php";
+?>
 <!-- jQuery -->
 <script src="plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->

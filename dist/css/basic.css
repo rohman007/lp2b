@@ -31,6 +31,10 @@ aside.main-sidebar {
     position: relative;
     padding: .6rem 1rem;
 }
+.nav-sidebar .nav-link>p>.right {
+    top: 50%;
+    margin-top: -7px;
+}
 li.logo-text {
     font-weight: 800;
     font-size: 13pt;
@@ -204,6 +208,44 @@ span.icon-upload {
     border-radius: 10px;
 }
 
+/*---FORM MODAL---*/
+.form-modal .modal-body h1 {
+    font-weight: 800;
+    font-size: 22pt;
+    text-transform: uppercase;
+}
+.form-modal .modal-body h5 {
+    font-size: 13pt;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 40px !important;
+}
+.form-modal .modal-body {
+    max-height: 88vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.form-modal .modal-body input, .modal-body select {
+    padding: 8px 18px !important;
+    height: auto;
+    line-height: normal;
+    border-radius: 10px;
+}
+.form-modal.modal-dialog {
+    width: 420px;
+    max-width:90%;
+}
+.form-modal .input-group-text pre {
+    padding: 0;
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 6px;
+}
+.form-modal .input-group-text {
+    border-radius: 0 10px 10px 0 !important;
+    padding: 0 10px;
+    border-left: 0;
+}
 
 
 /*---LOGIN---*/

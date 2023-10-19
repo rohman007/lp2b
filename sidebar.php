@@ -24,7 +24,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">
+            <a href="about.php" class="nav-link">
               <span class="material-symbols-outlined">home</span>
               <p>Tentang LP2B</p>
             </a>
@@ -36,28 +36,66 @@
             </button>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">
+            <button type="button" class="nav-link" data-toggle="modal" data-target="#formLP2bModal">
+              <span class="material-symbols-outlined">cloud_upload</span>
+              <p>Form Peta Pola Ruang</p>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="nav-link" data-toggle="modal" data-target="#surveyLP2bModal">
               <span class="material-symbols-outlined">quick_reference_all</span>
               <p>Survey LP2B</p>
-            </a>
+            </button>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">
+            <button type="button" class="nav-link" data-toggle="modal" data-target="#surveyIrigasiModal">
               <span class="material-symbols-outlined">quick_reference_all</span>
               <p>Survey Irigasi</p>
-            </a>
+            </button>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">
+            <button type="button" class="nav-link" data-toggle="modal" data-target="#surveyJalanTaniModal">
               <span class="material-symbols-outlined">quick_reference_all</span>
               <p>Survey Jalan Tani</p>
-            </a>
+            </button>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">
+            <a href="#" class="nav-link">
               <span class="material-symbols-outlined">dashboard</span>
-              <p>Dashboard</p>
+              <p>Dashboard 
+                <i class="fas fa-angle-left right"></i>
+              </p>
             </a>
+            <ul class="nav nav-treeview" style="display: none;">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>LCP2B
+                    <i class="fas fa-angle-left right"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview" style="display: none;">
+                  <li class="nav-item">
+                    <a href="pages/tables/simple.html" class="nav-link">
+                      <i class="far fa-dot-circle  nav-icon"></i>
+                      <p>Lahan Sawah</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="pages/tables/data.html" class="nav-link">
+                      <i class="far fa-dot-circle  nav-icon"></i>
+                      <p>Lahan Bukan Sawah</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="pages/tables/data.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>LCP2B</p>
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
