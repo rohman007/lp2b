@@ -70,19 +70,19 @@
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>LCP2B
+                  <p>LP2B
                     <i class="fas fa-angle-left right"></i>
                   </p>
                 </a>
                 <ul class="nav nav-treeview" style="display: none;">
                   <li class="nav-item">
-                    <a href="pages/tables/simple.html" class="nav-link">
+                    <a href="index.php" class="nav-link">
                       <i class="far fa-dot-circle  nav-icon"></i>
                       <p>Lahan Sawah</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="pages/tables/data.html" class="nav-link">
+                    <a href="index.php" class="nav-link">
                       <i class="far fa-dot-circle  nav-icon"></i>
                       <p>Lahan Bukan Sawah</p>
                     </a>
@@ -90,7 +90,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="pages/tables/data.html" class="nav-link">
+                <a href="" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>LCP2B</p>
                 </a>
