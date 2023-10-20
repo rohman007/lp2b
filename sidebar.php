@@ -82,13 +82,13 @@
                 </a>
                 <ul class="nav nav-treeview" style="display: none;">
                   <li class="nav-item">
-                    <a href="index.php" class="nav-link">
+                    <a href="map.php" class="nav-link">
                       <i class="far fa-dot-circle  nav-icon"></i>
                       <p>Lahan Sawah</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="index.php" class="nav-link">
+                    <a href="map.php" class="nav-link">
                       <i class="far fa-dot-circle  nav-icon"></i>
                       <p>Lahan Bukan Sawah</p>
                     </a>
@@ -96,7 +96,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">
+                <a href="map.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>LCP2B</p>
                 </a>
