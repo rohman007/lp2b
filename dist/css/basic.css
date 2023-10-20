@@ -389,7 +389,8 @@ div#disclaimerModal .modal-dialog {
 div#disclaimerModal h1 {
     font-weight: 800;
     font-size: 22pt;
-    color: #9a3131;
+    color: #3570a3;
+    text-align: center;
 }
 div#disclaimerModal .material-symbols-outlined {
     color: #9a3131;

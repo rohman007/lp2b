@@ -30,6 +30,12 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="index.php" class="nav-link">
+              <span class="material-symbols-outlined">search</span>
+              <p>Jelajah Peta</p>
+            </a>
+          </li>
+          <li class="nav-item">
             <button type="button" class="nav-link" data-toggle="modal" data-target="#uploadMapModal">
               <span class="material-symbols-outlined">cloud_upload</span>
               <p>Upload Peta Pola Ruang</p>
