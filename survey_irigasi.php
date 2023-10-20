@@ -20,7 +20,7 @@
 								<option>Primer</option>
 								<option>Sekunder</option>
 								<option>Tersier</option>
-								<option>Cacing</option>
+								<!-- <option>Cacing</option> -->
 							</select>
 						</div>
 						<div class="form-group mb-3">
