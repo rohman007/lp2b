@@ -15,9 +15,9 @@
 <script src="dist/js/adminlte.js"></script>
 
 <script type="text/javascript">
-    $(window).on('load', function() {
-        $('#disclaimerModal').modal('show');
-    });
+    // $(window).on('load', function() {
+    //     $('#disclaimerModal').modal('show');
+    // });
 </script>
 </body>
 </html>

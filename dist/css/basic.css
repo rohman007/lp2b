@@ -451,6 +451,9 @@ a.burger-menu {
   background: #fff !important;
 }
 @media(min-width:768px){
+    .sidebar nav {
+        max-height: 80vh;
+    }
     .navbar-search-block input {
         width: 300px !important;
     }
