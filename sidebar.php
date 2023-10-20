@@ -11,7 +11,7 @@
           <!-- <li class="nav-item">
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
           </li> -->
-          <li class="logo-image"><img src="dist/img/logo-white.png"></li>
+          <li class="logo-image"><a href="index.php"><img src="dist/img/logo-white.png"></a></li>
           <li class="logo-text ml-2">LP2B KEMENTAN</li>
         </ul>
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
@@ -30,7 +30,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="index.php" class="nav-link">
+            <a href="map.php" class="nav-link">
               <span class="material-symbols-outlined">search</span>
               <p>Jelajah Peta</p>
             </a>

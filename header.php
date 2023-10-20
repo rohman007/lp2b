@@ -25,7 +25,7 @@
       <!-- <li class="nav-item">
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li> -->
-      <li class="logo-image"><img src="dist/img/logo.png"></li>
+      <li class="logo-image"><a href="index.php"><img src="dist/img/logo.png"></a></li>
       <li class="logo-text ml-2">LP2B KEMENTAN</li>
     </ul>
 

@@ -161,6 +161,36 @@ body.layout-fixed .sidebar {
 }
 
 
+/*---HOME---*/
+section#home {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../img/bg-disclaimer.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 120px;
+    background-position: center 100%;
+}
+section#home h1 {
+    font-weight: 700;
+    color: #155e9c;
+    font-size: 29pt;
+    top: 2vw;
+    position: relative;
+}
+img.logo-kementan {
+    position: absolute;
+    height: 80px;
+    left: 10px;
+    bottom: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 4px 10px;
+}
+
+
 /*---ABOUT---*/
 .about-content{
     background: rgb(0 0 0 / 60%);
@@ -183,6 +213,18 @@ section.about-section {
     padding-bottom: 10px;
 }
 @media(max-width:767px){
+    img.logo-kementan {
+        max-width: 100%;
+        height: auto;
+        left: 0;
+        bottom: 5px;
+    }
+    section#home h1 {
+        font-size: 19pt;
+        top: 4vh;
+        position: relative;
+        padding: 0 10px;
+    }
     section.about-section .container-fluid {
         padding: 0 20px 0px !important;
         margin-top: 100px;
@@ -452,7 +494,7 @@ a.burger-menu {
 }
 @media(min-width:768px){
     .sidebar nav {
-        max-height: 80vh;
+        max-height: calc(100vh - 216px);
     }
     .navbar-search-block input {
         width: 300px !important;
