@@ -41,12 +41,12 @@
               <p>Upload Peta Pola Ruang</p>
             </button>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <button type="button" class="nav-link" data-toggle="modal" data-target="#formLP2bModal">
               <span class="material-symbols-outlined">cloud_upload</span>
               <p>Form Peta Pola Ruang</p>
             </button>
-          </li>
+          </li> -->
           <li class="nav-item">
             <button type="button" class="nav-link" data-toggle="modal" data-target="#surveyLP2bModal">
               <span class="material-symbols-outlined">quick_reference_all</span>

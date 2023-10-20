@@ -173,6 +173,7 @@ section#home {
     text-align: center;
     padding-top: 120px;
     background-position: center 100%;
+    box-shadow: 0px -210px 100px -140px rgb(255 255 255 / 70%) inset;
 }
 section#home h1 {
     font-weight: 700;
@@ -184,9 +185,9 @@ section#home h1 {
 img.logo-kementan {
     position: absolute;
     height: 80px;
-    left: 10px;
-    bottom: 10px;
-    background: rgba(255, 255, 255, 0.5);
+    right: 0px;
+    bottom: 4px;
+    /* background: rgba(255, 255, 255, 0.5); */
     padding: 4px 10px;
 }
 
@@ -217,7 +218,7 @@ section.about-section {
         max-width: 100%;
         height: auto;
         left: 0;
-        bottom: 5px;
+        bottom: 0px;
     }
     section#home h1 {
         font-size: 19pt;
