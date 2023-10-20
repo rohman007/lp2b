@@ -11,7 +11,7 @@
 				</button>
 			<div class="modal-body">
 				<div class="d-md-flex justify-content-center align-items-center">
-					<!-- <span class="material-symbols-outlined">warning</span> -->
+					<span class="material-symbols-outlined">warning</span>
 					<h1>KETAHANAN PANGAN<br/>
 					LAHAN PERTANIAN PANGAN BERKELANJUTAN<br/>
 					(LP2B)</h1>
