@@ -495,7 +495,7 @@ a.burger-menu {
 }
 @media(min-width:768px){
     .sidebar nav {
-        max-height: calc(100vh - 216px);
+        max-height: calc(100vh - 135px);
     }
     .navbar-search-block input {
         width: 300px !important;
